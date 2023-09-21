@@ -1,1 +1,11 @@
-<p>Productos hola mundo</p>
+<h2>Lista de productos</h2>
+{{#each products}}
+    <h3>{{this.Title}}</h3>
+    <p>{{this.description}}</p>
+    <p>{{this.category}}</p>
+    <p>{{this.price}}</p>
+    <p>{{this.code}}</p>
+    <p>{{this.stock}}</p>
+
+
+{{/each}}
